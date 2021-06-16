@@ -1,0 +1,114 @@
+body{
+    padding:20px;
+    background-image:url("/asset/redtree.jpg");
+    background-repeat:repeat;
+    
+    
+    
+}
+ a.icon{
+    color:white;
+    float: right;
+    letter-spacing: 20px;
+    position: relative;
+    bottom:15px;
+    border-radius: 10px;
+    
+}
+
+h1.main{
+    color:black;
+    font-family:'baloo','tammudu';
+    justify-items: center;
+    justify-content: space-around;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    background-color:rgb(165, 162, 162);
+    padding: 10px;
+    border-radius: 130px;
+    opacity: 70%;
+   
+}
+.child:hover{
+    transform: scale(1.1);
+   
+}
+
+
+.parent{
+   
+    margin-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+
+    box-shadow: 3px 3px 10px black , -3px -3px 6px black;
+
+  
+   
+    }
+ .child{
+
+     margin-top: 5px;
+     margin-bottom: 20px;
+     height: 400px;
+     width: 24.5%;
+    
+ }   
+ 
+    
+    #fieldset{
+        background-color:rgb(194, 182, 182);
+        border-radius: 30px;
+        text-align: left;
+        font-weight: 600;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 10px black;
+        box-shadow: 3px 3px 8px black,-3px -3px 8px black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 20px;
+        float: left;
+        margin-bottom: 40px;
+        text-align:left;
+        position: relative;
+        opacity: 70%;
+        left:340px;
+        color: black;
+        
+
+    }
+    .fld1{
+        border-radius: 6px;
+        border-style: solid;
+        border:10px;
+        padding: 7px;
+        
+    }
+    #but{
+        border: 5px black;
+        background-color: black;
+        padding: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 700;
+        color: white;
+    }
+    label{
+        width: 300px;
+        display: inline-block;
+    }
+    #but:hover{
+        transform: scale(1.1);
+        background-color: green;
+    }
+    
